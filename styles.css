@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+body{
+    background-color: var(--secondary);
+    margin-left: 29%;
+}
+h1{
+    color: var(--label);
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 80px;
+    margin-bottom: -5px;
+    margin-left: 8%;
+    text-shadow: var(--title) 0.3rem 0.02rem 0px;
+}
+:root{
+    --background:#e4a00d;
+    --label:#ffffff;
+    --title:#3c075a;
+    --secondary:#9c7aeb;
+    --terciary:#eecf8d;
+}
+fieldset{
+    margin-bottom: 10px;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: none;
+    margin-top: 5px;
+    background-color: var(--background);
+}
+input{
+    display: flex;
+    width: auto;
+    background-color: #430f58;
+    accent-color: var(--title);
+}
+.recommend,.improve{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+input[type="radio"],input[type="checkbox"] {
+    display:inline-table;
+}
+form{
+    width: 580px;
+    height:auto;
+    background-color: var(--background);
+    display: inline-block;
+    justify-content: center;
+    text-align: start;
+    opacity: 90%;
+    padding-left: 15px;
+    padding-right: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    
+}
+input[type="text"],input[type="email"],input[type="number"],select {
+    justify-content: center;
+    background-color: white;
+    color: black;
+    font-size: larger;
+    width: 33rem;
+    height: 2rem;
+    border:0.1px;
+    border-radius: 0.3rem;
+    margin:8px -1px;
+    display: block;
+}
+
+textarea{
+    background-color: white;
+    color: black;
+    font-size: larger;
+    width: 34rem;
+    height: 10rem;
+    resize: none;
+}
+.label{
+    color: white;
+    background-color: var(--background);
+    font-weight:600;
+    margin-top: 8px;
+    font-size: larger;
+}
+::selection{
+    background-color: var(--title);
+    color: white;
+}
+
+button{
+    background-color: var(--title);
+    color: white;
+    font-size: larger;
+    width: 34.6rem;
+    align-self: center;
+    height: 40px;
+    border-radius:1px;
+    border:none;
+    margin: 20px 15px 20px;
+}
+label{
+    font-size: larger;
+    color: white;
+    margin-top: 2px;
+}
+option{
+    background-color: var(--terciary);
+    color: black;
+}
+
+span{
+    font-size: medium;
+}
+#description{
+    width: fit-content;
+    color: var(--label);
+    font-size: large;
+    font-weight: 300;
+    margin-left: 6%;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #310b8b;
+    color: var(--label);
+}
+input[type="checkbox"]:hover, input[type="radio"]:hover{
+    cursor: pointer;
+}
